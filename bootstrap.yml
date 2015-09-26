@@ -6,6 +6,7 @@
     ansible_python_interpreter: "/usr/bin/env python"
 
   roles:
+      - repos
       - install_packages
       - mail
       - fail2ban

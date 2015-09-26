@@ -4,7 +4,7 @@ domain: pp24.polarparty.no
 ansible_only: Don't edit manually
 
 # for apt configs
-apt_mirror: http://ftp.se.debian.no/
+apt_mirror: http://debian.samfundet.no/
 debian_release: jessie
 
 # for postfix
