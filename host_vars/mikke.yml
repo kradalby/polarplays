@@ -1,0 +1,8 @@
+---
+hostname: mikke
+
+# SMTP spesific
+snmp_location: PolarParty 24, Slagenhallen, Tønsberg, Norway
+
+xenserver: True
+config_location: ""
