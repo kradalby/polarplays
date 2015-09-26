@@ -1,0 +1,7 @@
+---
+- name: root alias to pp24
+action: lineinfile dest=/etc/aliases regexp='^root:' line='root:pp24teknisk@polarparty.no' state=present
+
+- name: run newalias
+  shell: newaliases
+

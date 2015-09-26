@@ -1,0 +1,28 @@
+---
+# variables needed for this playbook
+domain: pp24.polarparty.no
+ansible_only: Don't edit manually
+
+# for apt configs
+apt_mirror: http://ftp.se.debian.no/
+debian_release: jessie
+
+# for postfix
+mail_relayhost: smtp.homenet.no
+
+
+# dns configs
+nameservers:
+    - 8.8.8.8
+    - 8.8.4.4
+
+jail_mail: True
+jail_mail_dest: pp24teknisk@polarparty.no
+
+# for ssh
+users:
+  - root
+
+# General SMTP
+snmp_contact: PolarParty Tech <pp24teknisk@polarparty.no>
+snmp_allowed: 195.204.156.10

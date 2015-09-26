@@ -1,0 +1,30 @@
+---
+apt_packages:
+  - vim-nox
+  - python
+  - python-pip
+  - python3
+  - git
+  - htop
+  - zsh
+  - python-dev
+  - python-setuptools
+  - virtualenv
+  - ntp
+  - tree
+  - ncdu
+  - ack-grep
+  - ssh
+  - mosh
+  - fail2ban
+  - postfix
+  - lldpd
+  - cu
+  - openssh-server
+  - openssl
+  - tmux
+  - nload
+  - ldap-utils
+  - figlet
+  - minicom
+  - make
