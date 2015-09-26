@@ -3,7 +3,8 @@
 #  Listen for connections on all interfaces (both IPv4 *and* IPv6)
 agentAddress udp:161
 
-rocommunity public {{ snmp_allowed }}
+rocommunity pp24 {{ snmp_allowed }}
+rocommunity pp24 127.0.0.1
 
 #Info
 sysLocation    {{ snmp_location }}

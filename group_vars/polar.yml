@@ -13,8 +13,7 @@ mail_relayhost: smtp.homenet.no
 
 # dns configs
 nameservers:
-    - 8.8.8.8
-    - 8.8.4.4
+    - 195.204.156.9
 
 jail_mail: True
 jail_mail_dest: pp24teknisk@polarparty.no
