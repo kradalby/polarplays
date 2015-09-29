@@ -3,8 +3,9 @@
 ################################
 
 [polar]
-dolly               ansible_ssh_host=195.204.156.9               ansible_ssh_port=22  ansible_ssh_user=root
-donald               ansible_ssh_host=195.204.156.10               ansible_ssh_port=22  ansible_ssh_user=root
+dolly               ansible_ssh_host=195.204.156.9                ansible_ssh_port=22  ansible_ssh_user=root
+donald              ansible_ssh_host=195.204.156.10               ansible_ssh_port=22  ansible_ssh_user=root
 pluto               ansible_ssh_host=195.204.156.12               ansible_ssh_port=22  ansible_ssh_user=root
 mikke               ansible_ssh_host=195.204.156.13               ansible_ssh_port=22  ansible_ssh_user=root
 skrue               ansible_ssh_host=195.204.156.14               ansible_ssh_port=22  ansible_ssh_user=root
+innlevering         ansible_ssh_host=195.204.156.16               ansible_ssh_port=22  ansible_ssh_user=root
