@@ -10,3 +10,4 @@ mikke               ansible_ssh_host=195.204.156.13               ansible_ssh_po
 skrue               ansible_ssh_host=195.204.156.14               ansible_ssh_port=22  ansible_ssh_user=root
 innlevering         ansible_ssh_host=195.204.156.16               ansible_ssh_port=22  ansible_ssh_user=root
 dashboard         ansible_ssh_host=195.204.156.17               ansible_ssh_port=22  ansible_ssh_user=root
+fiks         ansible_ssh_host=195.204.156.18               ansible_ssh_port=22  ansible_ssh_user=root
